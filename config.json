@@ -1,0 +1,11 @@
+﻿{
+   "name": "bullet-time",
+   "port": 3203,
+   "socketPort": 3204,
+   "debug": true,
+   "directories": {
+      "static": "/public",
+      "images": "/public/images",
+      "templates": "/public/templates"
+   }
+}

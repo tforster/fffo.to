@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <title>Home</title>
+   <link href="\stylesheets\main.css" rel="stylesheet" />
+</head>
+<body>
+   <div id="paneMaster">
+      <h1>Master</h1>
+      <form>
+         <button id="btnCreateMaster">Create a Master</button><input type="text" id="pinMaster" disabled />         
+      </form>
+      <h2>Clients</h2>
+      <ul id="clients"></ul>
+
+      <button id="btnShutter">shutter</button>
+      <div id="thumbs">
+
+      </div>
+   </div>
+   
+   <div id="paneSlave" style="display:none">
+      <h1>Slave</h1>
+      <form>
+         <label for="pinClient" />
+         <input type="text" id="pinClient" />
+         <button id="btnConnectMaster">Connect to Master</button>
+      </form>
+
+   </div>
+   
+   <div id="preview">
+      <video autoplay></video>
+   </div>
+   <canvas style="display:none;"></canvas>
+   
+   <img src="" />
+
+   <div id="paneSettings" style="display:none;">
+      <h1>Settings</h1>
+      <p>Lorem ipsum</p>
+   </div>
+
+   <div id="menuBar">
+      <ul>
+         <li><a href="#" id="btnMaster">Master</a></li>
+         <li><a href="#" id="btnSlave">Slave</a></li>
+         <li><a href="#" id="btnSettings">Settings</a></li>
+      </ul>
+   </div>
+   <script src="/scripts/main.js"></script>
+</body>
+</html>

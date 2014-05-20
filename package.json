@@ -1,0 +1,20 @@
+{
+   "name": "bullet_time",
+   "version": "1.0.0",
+   "description": "bullet-time",
+   "main": "server.js",
+   "author": {
+      "name": "troy.forster",
+      "email": "troy.forster@gmail.com"
+   },
+   "private": true,
+   "scripts": {
+      "start": "node server"
+   },
+   "dependencies": {
+      "express": "4.0.x",
+      "ejs": "0.8.x",
+      "nconf": "0.6.x",
+      "ws": "0.4.x"
+   }
+}
