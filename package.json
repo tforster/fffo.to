@@ -1,20 +1,30 @@
 {
-   "name": "bullet_time",
-   "version": "1.0.0",
-   "description": "bullet-time",
-   "main": "server.js",
-   "author": {
-      "name": "troy.forster",
-      "email": "troy.forster@gmail.com"
-   },
-   "private": true,
-   "scripts": {
-      "start": "node server"
-   },
-   "dependencies": {
-      "express": "4.0.x",
-      "ejs": "0.8.x",
-      "nconf": "0.6.x",
-      "ws": "0.4.x"
-   }
+  "name": "fffo.to",
+  "version": "0.1.0",
+  "description": "A distributed mobile bullet-time proof of concept",
+  "main": "server.js",
+  "author": "troy.forster <troy.forster@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "express": "4.0.x",
+    "ejs": "0.8.x",
+    "nconf": "0.6.x",
+    "ws": "0.4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tforster/fffo.to.git"
+  },
+  "keywords": [
+    "bullet",
+    "time"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tforster/fffo.to/issues"
+  },
+  "homepage": "https://github.com/tforster/fffo.to#readme"
 }

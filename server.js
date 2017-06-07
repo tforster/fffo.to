@@ -27,33 +27,6 @@ app.use(express.static(path.join(basePath, options.directories.static)));
 
 app.use("/", routes);
 
-// 404 route
-//app.use(function (req, res, next) {
-//   var err = new Error("Not Found");
-//   err.status = 404;
-//   next(err);
-//});
-
-// development error handler will print stacktrace
-//if (options.debug) {
-//   app.use(function (err, req, res, next) {
-//      res.status(err.status || 500);
-//      res.render("error", {
-//         message: err.message,
-//         error: err
-//      });
-//   });
-//}
-
-// production error handler, no stacktraces leaked to user
-//app.use(function (err, req, res, next) {
-//   res.status(err.status || 500);
-//   res.render("error", {
-//      message: err.message,
-//      error: {}
-//   });
-//});
-
 var server = http.createServer(app).listen(options.port, function () {
    console.log("%s is listening on port %s", options.name, options.port);
 });
